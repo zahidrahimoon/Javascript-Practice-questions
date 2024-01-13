@@ -1,2 +1,2 @@
-# Muhammad-Zahid
-Getting idea about Git Up
+# javascript questions
+javascript practice questions
