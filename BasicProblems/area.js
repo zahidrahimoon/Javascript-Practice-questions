@@ -1,4 +1,13 @@
-let base=prompt('Enter the base');
-let height=prompt('Enter the height');
-let area=1/2*base*height;
-console.log(area);
+//Write a JavaScript program to find the area of a triangle where three sides are 5, 6, 7. 
+
+function Area(a,b,c) {
+    const s = (a+b+c) / 2;
+
+    const area = Math.sqrt(s * (s-a) * (s-b) * (s-c));
+
+    return area;
+}
+const a = 5;
+const b = 9;
+const c = 6;
+console.log(Area(a,b,c));
